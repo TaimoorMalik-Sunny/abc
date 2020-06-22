@@ -37,5 +37,5 @@ jobs:
     - name: Installing surge
       run: npm install -g surge
     
-    - name: Deploying on surge
-      run: surge ./build http://bootcamp_session2.surge.sh/ ..token ${{secrets.SURGE_TOKEN}} 
+#     - name: Deploying on surge
+#       run: surge ./build http://bootcamp_session2.surge.sh/ ..token ${{secrets.SURGE_TOKEN}} 
